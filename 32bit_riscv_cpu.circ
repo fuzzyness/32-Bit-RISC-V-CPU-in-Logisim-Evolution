@@ -1571,13 +1571,13 @@
 1 2 4 8 10 20 40 80
 </a>
     </comp>
-    <comp lib="8" loc="(1149,2585)" name="Text">
+    <comp lib="8" loc="(1145,2585)" name="Text">
       <a name="text" val="imm[11:5]"/>
     </comp>
-    <comp lib="8" loc="(1266,2585)" name="Text">
+    <comp lib="8" loc="(1265,2585)" name="Text">
       <a name="text" val="imm[4:0]"/>
     </comp>
-    <comp lib="8" loc="(1287,3167)" name="Text">
+    <comp lib="8" loc="(1285,3165)" name="Text">
       <a name="text" val="imm[20|10:1|11|19:12]"/>
     </comp>
     <comp lib="8" loc="(1395,2585)" name="Text">
@@ -1586,31 +1586,31 @@
     <comp lib="8" loc="(1515,2585)" name="Text">
       <a name="text" val="imm[4:1|11]"/>
     </comp>
-    <comp lib="8" loc="(1628,3181)" name="Text">
-      <a name="color" val="#0000ff"/>
-      <a name="text" val="shamt"/>
-    </comp>
-    <comp lib="8" loc="(1629,1580)" name="Text">
+    <comp lib="8" loc="(1625,1580)" name="Text">
       <a name="color" val="#0000ff"/>
       <a name="text" val="AND"/>
     </comp>
-    <comp lib="8" loc="(1629,1670)" name="Text">
+    <comp lib="8" loc="(1625,1670)" name="Text">
       <a name="color" val="#0000ff"/>
       <a name="text" val="OR"/>
     </comp>
-    <comp lib="8" loc="(1629,2190)" name="Text">
+    <comp lib="8" loc="(1625,2190)" name="Text">
       <a name="color" val="#0000ff"/>
       <a name="text" val="SLL"/>
     </comp>
-    <comp lib="8" loc="(1629,2320)" name="Text">
+    <comp lib="8" loc="(1625,2320)" name="Text">
       <a name="color" val="#0000ff"/>
       <a name="text" val="ADD/SUB"/>
+    </comp>
+    <comp lib="8" loc="(1625,3180)" name="Text">
+      <a name="color" val="#0000ff"/>
+      <a name="text" val="shamt"/>
     </comp>
     <comp lib="8" loc="(1630,1790)" name="Text">
       <a name="color" val="#0000ff"/>
       <a name="text" val="SRL/SRA"/>
     </comp>
-    <comp lib="8" loc="(1630,1919)" name="Text">
+    <comp lib="8" loc="(1630,1915)" name="Text">
       <a name="color" val="#0000ff"/>
       <a name="text" val="XOR"/>
     </comp>
@@ -1618,42 +1618,42 @@
       <a name="color" val="#0000ff"/>
       <a name="text" val="SLTU"/>
     </comp>
-    <comp lib="8" loc="(1631,2110)" name="Text">
+    <comp lib="8" loc="(1630,2110)" name="Text">
       <a name="color" val="#0000ff"/>
       <a name="text" val="SLT"/>
     </comp>
-    <comp lib="8" loc="(1650,2791)" name="Text">
+    <comp lib="8" loc="(1650,2790)" name="Text">
       <a name="color" val="#0000ff"/>
       <a name="text" val="imm[11:0]"/>
     </comp>
-    <comp lib="8" loc="(1657,3013)" name="Text">
+    <comp lib="8" loc="(1655,3010)" name="Text">
       <a name="text" val="imm[31:12]"/>
     </comp>
-    <comp lib="8" loc="(1965,1791)" name="Text">
-      <a name="color" val="#0000ff"/>
-      <a name="text" val="SRLI/SRAI"/>
-    </comp>
-    <comp lib="8" loc="(1968,1670)" name="Text">
+    <comp lib="8" loc="(1965,1670)" name="Text">
       <a name="color" val="#0000ff"/>
       <a name="text" val="ORI"/>
     </comp>
-    <comp lib="8" loc="(1968,2190)" name="Text">
+    <comp lib="8" loc="(1965,1790)" name="Text">
       <a name="color" val="#0000ff"/>
-      <a name="text" val="SLLI"/>
+      <a name="text" val="SRLI/SRAI"/>
     </comp>
-    <comp lib="8" loc="(1969,1920)" name="Text">
+    <comp lib="8" loc="(1965,1920)" name="Text">
       <a name="color" val="#0000ff"/>
       <a name="text" val="XORI"/>
     </comp>
-    <comp lib="8" loc="(1969,2021)" name="Text">
+    <comp lib="8" loc="(1965,2020)" name="Text">
       <a name="color" val="#0000ff"/>
       <a name="text" val="SLTIU"/>
     </comp>
-    <comp lib="8" loc="(1969,2111)" name="Text">
+    <comp lib="8" loc="(1965,2110)" name="Text">
       <a name="color" val="#0000ff"/>
       <a name="text" val="SLTI"/>
     </comp>
-    <comp lib="8" loc="(1970,1581)" name="Text">
+    <comp lib="8" loc="(1965,2190)" name="Text">
+      <a name="color" val="#0000ff"/>
+      <a name="text" val="SLLI"/>
+    </comp>
+    <comp lib="8" loc="(1970,1580)" name="Text">
       <a name="color" val="#0000ff"/>
       <a name="text" val="ANDI"/>
     </comp>
@@ -1990,6 +1990,7 @@
     <wire from="(2010,2030)" to="(2010,2120)"/>
     <wire from="(2010,2120)" to="(2010,2200)"/>
     <wire from="(2010,2200)" to="(2010,2330)"/>
+    <wire from="(2120,1990)" to="(2170,1990)"/>
     <wire from="(750,2450)" to="(790,2450)"/>
   </circuit>
 </project>
